@@ -22,4 +22,8 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
-          
+
+      - name: GITHUB USER VALUES SETTINGS 
+        run: | 
+          echo ${{secrets.ASSET_SETTINGS}}
+          echo ${{secrets.APP_SETTINGS}}
