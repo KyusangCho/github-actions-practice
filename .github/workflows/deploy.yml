@@ -17,4 +17,9 @@ jobs:
         run: |
           echo "Good"
           echo "Morning"
+
+      - name: github action 자체에 저장된 변수사용
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
           
