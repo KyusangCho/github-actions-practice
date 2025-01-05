@@ -26,3 +26,4 @@ jobs:
       - name: GITHUB USER VALUES SETTINGS 
         run: |
           echo ${{ secrets.ASST_SETTINGS }}
+          echo ${{ secrets.APP_SETTINGS}}
